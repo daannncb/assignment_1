@@ -1,0 +1,82 @@
+h1 {
+  display: flex;
+  justify-content: center;
+}
+
+.topmenu {
+  display: flex;
+  list-style-type: none;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.intro {
+  background-image: url(https://images.unsplash.com/photo-1683009427041-d810728a7cb6?q=80&w=1972&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-position: 0 -1700px;
+  box-sizing: border-box;
+  position: relative;
+  background-repeat: no-repeat;
+  display: block;
+  float: none;
+  height: 968px;
+  width: auto;
+  background-size: cover;
+}
+
+.textbox1 {
+  background-color: aliceblue;
+  border-radius: 20px;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  display: flex;
+  width: 300px;
+  flex-direction: column;
+  box-sizing: border-box;
+  position: absolute;
+  bottom: 50%;
+  left: 200px;
+  padding: -5px;
+  justify-content: center;
+}
+
+/* .text1 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  bottom: 20%;
+  left: 3rem;
+  padding: 1rem;
+} */
+
+.trad {
+  background-image: url(https://img.ukclimbing.com/i/401308?fm=jpg&time=1675762700&s=0062fef8429ef7abd5b41847db1d5753);
+  box-sizing: border-box;
+  position: relative;
+  background-repeat: no-repeat;
+  display: block;
+  height: 968px;
+  width: auto;
+  background-size: cover;
+}
+
+.sport {
+  /* background-image: url(https://img.ukclimbing.com/i/386922?fm=jpg&time=1651760751&dpr=1&s=82f958a6e248f0adf780d1d15016f583); */
+  box-sizing: border-box;
+  position: relative;
+  background-repeat: no-repeat;
+  display: block;
+  height: 100%;
+  background-size: cover;
+}
+
+.bouldering {
+  box-sizing: border-box;
+  position: relative;
+  background-repeat: no-repeat;
+  display: block;
+  height: 100%;
+  background-size: cover;
+}
